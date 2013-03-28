@@ -1,0 +1,6 @@
+Toy project to demonstrate
+
+1) Loading a configuration file
+2) Exclude comments and blank lines from processing
+3) Store config in a key/val store
+4) Distinguish between bool and regular string

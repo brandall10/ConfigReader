@@ -1,0 +1,10 @@
+# this is a comment
+
+dir = /here/there/everywhere
+
+num =   23434
+
+ # another comment
+   boolfalse =  faLSE
+
+booltrue = true 
