@@ -4,3 +4,4 @@ Toy project to demonstrate
 2) Exclude comments and blank lines from processing
 3) Store config in a key/val store
 4) Distinguish between bool and regular string
+5) Basic knowledge of RSpec
