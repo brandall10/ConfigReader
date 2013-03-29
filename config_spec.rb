@@ -3,7 +3,7 @@ require './config_reader.rb'
 describe ConfigReader do
 
   describe "Test line parse" do
-    before(:each) { @blank_config = ConfigReader.new("blank.txt") }
+    before(:each) { @blank_config = ConfigReader.new() }
 
     it "ignores comments" do
       @blank_config.parse("# This is a comment")

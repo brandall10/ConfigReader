@@ -16,9 +16,9 @@
 class ConfigReader
   @properties 
 
-  def initialize(file)
+  def initialize(file = nil)
     @properties = Hash.new(0)
-    process(file) 
+    process(file) if file
   end
 
   # parse config file
